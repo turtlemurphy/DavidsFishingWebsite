@@ -4,15 +4,15 @@
   padding: 0;
 }
 header {
-  background-color: #bc1717;
-  color: #fff;
+  background-color: #6f0d0d;
+  color: #eee;
   padding: 20px;
-  text-align: center;
 }
-h1 {
-  margin: 0;
-  font-size: 36px;
-  text-transform: uppercase;
+.businesscard {
+  text-align: left;
+}
+.headergallery {
+  text-align: right;
 }
 main {
   max-width: 1200px;
