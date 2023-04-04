@@ -8,19 +8,47 @@
 header {
   background-color: #6f0d0d;
   color: #eee;
-  padding: 5px;
+  padding: 10px;
 }
 main {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0px;
 }
 
+/* Title display controls        border: 1px solid black; */
+.parent {
+  margin: 1px;
+  padding: 0px;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1px;
+  vertical-align: middle;
+}
+.titlewords {
+  font-size: 55px;
+}
+.currentlytouring {
+  text-align: left;
+  font-size: 35px;
+}
+/* ------------------------------ */
+
 /* Applies to contact information */
 .span {
-  width: 420px;
+  display: flex;
+  width: 100%;
 }
-
+.contactinfo {
+  flex: 1;
+  margin: 0px;
+}
+.contactinfo:first-child {
+  margin-right: 200px;
+}
+/* ------------------------------ */
 
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}

@@ -4,7 +4,7 @@
     <!--Taylor Murphy-->
     <!--List of things that need to be done-->
     <!--
-        Reajust google maps square to be next to the contact info
+        flexbox the gallery
         get better/digital version of the logo
 
         get hosting
@@ -33,25 +33,24 @@
 </head>
 
 <body>
-	<header class="w3-center w3-margin-bottom">
-        <img src="Logo.jpg" style="width:22%">
-        <h1><b>Red's Fishing Guide Adventures</b></h1>
-        <h2>Lake Fork</h2>
-        <h2>Lake Bob Sandlin</h2>
+	<header>
+        <div class='parent'>
+            <div class='child'>
+                <img src="Logo.jpg" style="width:75%">
+            </div>
+            <div class='child'>
+                <div class="titlewords">
+                    <p><b>Red's Fishing Guide</b></p>
+                </div>
+                <div class="currentlytouring">
+                    <p>Currently Touring:</p>
+                    <p>-Lake Bob Sandlin</p>
+                </div>
+            </div>
+        </div>
     </header>
 <main>
-    <!--Contact Information-->
-    <div class="span">
-        <h3><i class="icon-chevron-right"></i><strong> Contact Information:</strong></h3>
-        <h3>Feel free to call or email and we can get you scheduled for your next fishing adventure.</h3>
-        <h3><span><i class="icon-phone"></i><strong> Phone: </strong>(469)-744-8559</span></h3>
-        <h3><span><i class="icon-envelope-alt"></i><strong> Email: </strong>dgeepaint@yahoo.com</span></h3>
-        <h3><span><i class="icon-road"></i><strong> Address:</strong>5244 Pistol Mill Rd, Pittsburg, TX 75686</span></h3>
-        <!--Google Maps integration-->
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37831.84507265496!2d-95.04854992788253!3d33.05925017302115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8635ff26b2022793%3A0x395fbc37cbe989ab!2s5244%20Pistol%20Mill%20Rd%2C%20Pittsburg%2C%20TX%2075686!5e0!3m2!1sen!2sus!4v1680551487824!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
+    
     
     <h3><strong>Previous Adventures:</strong></h3>
     <!-- Photo Grid -->
@@ -72,6 +71,21 @@
             <img src="DavidWithFish04.jpg" style="width:100%">
             <img src="DavidWithFish02.jpg" style="width:100%">
             <img src="DavidsBoat.jpg" style="width:100%">
+        </div>
+    </div>
+
+    <!--Contact Information-->
+    <div class="span">
+        <div class="contactinfo">
+            <h3><i class="icon-chevron-right"></i><strong> Contact Information:</strong></h3>
+            <h3>Feel free to call or email and we can get you scheduled for your BEST fishing adventure on Bob Sandlin.</h3>
+            <h3><span><i class="icon-phone"></i><strong> Phone: </strong>(469)-744-8559</span></h3>
+            <h3><span><i class="icon-envelope-alt"></i><strong> Email: </strong>dgeepaint@yahoo.com</span></h3>
+            <h3><span><i class="icon-road"></i><strong> Address:</strong> 5244 Pistol Mill Rd, Pittsburg, TX 75686</span></h3>
+        </div>
+        <!--Google Maps integration-->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37831.84507265496!2d-95.04854992788253!3d33.05925017302115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8635ff26b2022793%3A0x395fbc37cbe989ab!2s5244%20Pistol%20Mill%20Rd%2C%20Pittsburg%2C%20TX%2075686!5e0!3m2!1sen!2sus!4v1680551487824!5m2!1sen!2sus" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
